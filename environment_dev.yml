@@ -1,0 +1,9 @@
+name: airjordan
+channels:
+  - defaults
+dependencies:
+  - pip=20.2.4
+  - python=3.7.9
+  - pip:
+    - apache-airflow==2.0.0
+    - beautifulsoup4==4.9.3
