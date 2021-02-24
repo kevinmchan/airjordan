@@ -130,3 +130,14 @@ dmypy.json
 
 # VS code
 .vscode
+
+# Data
+notebooks/results
+notebooks/outputs
+results
+
+# Catboost
+catboost_info
+
+# Airflow
+logs
