@@ -141,3 +141,6 @@ catboost_info
 
 # Airflow
 logs
+
+# Models
+models
