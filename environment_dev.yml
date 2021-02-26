@@ -9,6 +9,7 @@ dependencies:
     - apache-airflow==2.0.0
     - beautifulsoup4==4.9.3
     - catboost==0.24.4
+    - google-cloud-storage==1.36.1
     - ohmysportsfeedspy==2.1.0
     - psycopg2-binary==2.8.6
     - python-dotenv==0.15.0
