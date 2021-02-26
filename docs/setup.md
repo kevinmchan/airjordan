@@ -34,3 +34,7 @@ Follow [instructions](https://cloud.google.com/sql/docs/postgres/create-instance
 docker pull dpage/pgadmin4
 docker run -p 80:80 -e 'PGADMIN_DEFAULT_EMAIL=user@domain.com' -e 'PGADMIN_DEFAULT_PASSWORD=SuperSecret' -d dpage/pgadmin4
 ```
+
+## Setup access to GCS
+
+Follow [instructions](https://cloud.google.com/storage/docs/reference/libraries?authuser=1#client-libraries-install-python) to set up a service account to access files in GCS bucket.
