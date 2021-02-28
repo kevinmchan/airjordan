@@ -4,10 +4,11 @@
 
 ```bash
 # install dependencies
-conda create -n airjordan python=3.7 pip=20.2.4
-conda activate airjordan beautifulsoup4
+conda env create -f environment_dev.yml
+conda activate airjordan
 
 # setup airflow
+export AIRFLOW_HOME=/path/to/airjordan  
 airflow db init
 airflow users create --username admin --password admin --firstname Anonymous --lastname Admin --role Admin --email admin@example.org
 
