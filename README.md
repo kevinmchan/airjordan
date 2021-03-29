@@ -41,7 +41,7 @@ pipenv install --dev
 pipenv shell
 
 # setup airflow
-export AIRFLOW_HOME=/path/to/project/directory
+export AIRFLOW_HOME=$(pwd)
 airflow db init
 airflow users create --username airflow --password airflow --firstname Anonymous --lastname Admin --role Admin --email admin@example.org
 
