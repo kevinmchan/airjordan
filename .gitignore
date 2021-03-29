@@ -141,6 +141,14 @@ catboost_info
 
 # Airflow
 logs
+airflow-webserver*
+airflow-scheduler*
+airflow.db
+webserver_config.py
+unittests.cfg
+
+# GCS Key
+sports-analytics-*.json
 
 # Models
 models
