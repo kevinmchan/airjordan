@@ -21,15 +21,24 @@ This project requires the following dependencies in order to work:
 
 ## Run using docker (recommended)
 
+This implementation of the airflow pipeline uses airflow's `CeleryExecutor` which allows for parallel execution and easy scaling up of worker nodes.
+
 ```bash
 docker-compose up --build
 ```
 
+The airflow webserver is available on port `8080` on the host machine.
+
 ## Run using pipenv
+
+Note by default, this local developer version of the airflow pipeline, using pipenv, uses the `SequentialExecutor` which does not allow for parallel execution.
 
 ```bash
 # install dependencies
 pipenv install --dev 
+
+# activate environment
+pipenv shell
 
 # setup airflow
 export AIRFLOW_HOME=/path/to/project/directory
