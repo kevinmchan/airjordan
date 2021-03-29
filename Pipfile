@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "*"
+catboost = "*"
+google-cloud-storage = "*"
+ohmysportsfeedspy = "*"
+psycopg2-binary = "*"
+python-dotenv = "*"
+simplejson = "*"
+tqdm = "*"
+
+[dev-packages]
+apache-airflow = "*"
+jupyterlab = "*"
+
+[requires]
+python_version = "3.8"
